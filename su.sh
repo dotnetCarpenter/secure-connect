@@ -1,3 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
 [ `whoami` = dotnet ] || exec su -c $0 dotnet
-./secureConnect.sh
+./disquiseConnect.sh
+./vpnConnect.sh

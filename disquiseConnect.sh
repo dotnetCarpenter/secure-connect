@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+# Developed on Ubuntu 16.04
+# You need macchanger installed
 
 # Disable network-manager because it will show wrong stuff anyway while we play with the wifi
 sudo /etc/init.d/network-manager stop
