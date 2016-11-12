@@ -6,5 +6,5 @@
 # Wait for network-manager start in disquiseConnect.sh to really start
 sleep 8
 
-# Connect to VPN IPredator
-nmcli connection up IPredator
+# Connect to VPN defined as vpn in sc.config
+nmcli connection up $vpn
