@@ -8,8 +8,8 @@ connectivity=$(nmcli networking connectivity check)
 [ "$connectivity" = "full" ] || sleep 8
 
 # check that $vpn is assigned
-[ -z "$vpn" ] && source `dirname $0`/readConfig.sh
-#echo $vpn
+[ -z "$scVpn" ] && source `dirname $0`/readConfig.sh
+#echo $scVpn
 
 # Connect to VPN defined as vpn in sc.config
-nmcli connection up $vpn
+nmcli connection up $scVpn

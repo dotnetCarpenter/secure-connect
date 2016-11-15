@@ -3,8 +3,11 @@
 # read sc.config
 `dirname $0`/readConfig.sh
 
+# debug
+#printenv
+
 # execute scripts as user in sc.config
-[ `whoami` = $user ] || exec su -c $0 $user
+[ `whoami`=$scUser ] || exec su -c $0 $scUser
 `dirname $0`/disquiseConnect.sh
 `dirname $0`/vpnConnect.sh
 

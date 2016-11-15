@@ -5,9 +5,10 @@ function readKey {
 }
 
 # set environment variables
-export user=`readKey user`
-export vpn=`readKey vpn`
+export "scUser=`readKey user`"
+export "scVpn=`readKey vpn`"
 
 # Debug statements
-#echo $user
-#echo $vpn
+#export -p
+#echo $scUser
+#echo $scVpn
