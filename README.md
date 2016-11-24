@@ -28,4 +28,6 @@ Notes
 The trick is to set `su.sh` to run as super user without password, if I am the user.
 This is done  in `visudo`.
 
-See: http://askubuntu.com/questions/155791/how-do-i-sudo-a-command-in-a-script-without-being-asked-for-a-password#155827
+See:
++ http://askubuntu.com/questions/246455/how-to-give-nopasswd-access-to-multiple-commands-via-sudoers#246592
++ ~~http://askubuntu.com/questions/155791/how-do-i-sudo-a-command-in-a-script-without-being-asked-for-a-password#155827~~ - is wrong
