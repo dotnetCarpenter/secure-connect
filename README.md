@@ -37,6 +37,7 @@ Where [User] is the username written in `sc.config`.
 Where [path] is the absolute path to `su.sh`.
 
 See:
++ http://toroid.org/sudoers-syntax
 + http://askubuntu.com/questions/246455/how-to-give-nopasswd-access-to-multiple-commands-via-sudoers#246592
 + ~~http://askubuntu.com/questions/155791/how-do-i-sudo-a-command-in-a-script-without-being-asked-for-a-password#155827~~ - is wrong
 
