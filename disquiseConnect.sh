@@ -12,7 +12,7 @@ sudo /etc/init.d/network-manager stop
 sudo ifconfig wls2 down
 
 # Change mac address
-sudo macchanger --random wls2
+sudo macchanger --random --bia wls2
 
 # Up wifi
 sudo ifconfig wls2 up
